@@ -763,7 +763,7 @@ Check out our https://github.com/elastic/logstash/issues/11635[progress toward E
 [[notable-7-15-2]]
 ==== Performance improvements and notable issues fixed
 
-**Jruby-openssl upgrade.** We've upgraded {ls} to 0.11.0 to properly support
+**Jruby-openssl upgrade.** We've upgraded jruby-openssl to 0.11.0 to properly support
 alt-chain certificate verifications in plugins using the Ruby net/http stack.
 The recent Let's Encrypt "DST Root CA X3" expiration has caused issues in
 Logstash plugins such as S3.
